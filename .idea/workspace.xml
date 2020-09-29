@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0952daf-dc0c-4b1e-b204-ff5d8ac49790" name="Default Changelist" comment="" />
+    <list default="true" id="b0952daf-dc0c-4b1e-b204-ff5d8ac49790" name="Default Changelist" comment="??">
+      <change afterPath="$PROJECT_DIR$/Images/graf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,21 +22,71 @@
         <option value="package.json" />
         <option value="JavaScript File" />
         <option value="gulpfile" />
+        <option value="gulp" />
+        <option value="HTML skabelon med JQuery" />
+        <option value="sass" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hdTG3GQep42eQIDuOPAJpfBfx1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Gulp.js.styles">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="styles" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>styles</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.styles" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,17 +97,93 @@
       <option name="presentableId" value="Default" />
       <updated>1600339869923</updated>
       <workItem from="1600339871083" duration="61000" />
-      <workItem from="1600340162486" duration="382000" />
+      <workItem from="1600340162486" duration="920000" />
+      <workItem from="1600759312084" duration="9788000" />
+      <workItem from="1600778600706" duration="141000" />
+      <workItem from="1600931000062" duration="1860000" />
     </task>
+    <task id="LOCAL-00001" summary="Menu indsat">
+      <created>1600778344175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778344175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="billede">
+      <created>1600778352996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778352996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="styling">
+      <created>1600778369350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778369350</updated>
+    </task>
+    <task id="LOCAL-00004" summary="??">
+      <created>1600778379621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600778379621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Menu indsat" />
+    <MESSAGE value="billede" />
+    <MESSAGE value="styling" />
+    <MESSAGE value="??" />
+    <option name="LAST_COMMIT_MESSAGE" value="??" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1600778390900">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600778390900" />
+    <state x="586" y="354" key="Github.ShareDialog" timestamp="1600340657539">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="586" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1600340657539" />
+    <state x="510" y="162" key="Github.UntrackedFilesDialog" timestamp="1600340665520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="510" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600340665520" />
+    <state width="1394" height="110" key="GridCell.Tab.0.bottom" timestamp="1600938976981">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600778402142" />
+    <state width="1394" height="110" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1600938976981" />
+    <state width="1394" height="110" key="GridCell.Tab.0.center" timestamp="1600938976980">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600778402140" />
+    <state width="1394" height="110" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1600938976980" />
+    <state width="1394" height="110" key="GridCell.Tab.0.left" timestamp="1600938976980">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600778402138" />
+    <state width="1394" height="110" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1600938976980" />
+    <state width="1394" height="110" key="GridCell.Tab.0.right" timestamp="1600938976981">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600778402141" />
+    <state width="1394" height="110" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1600938976981" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1600340545985">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600340545985" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600778397431">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600778397431" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 $margin:10px;
 $padding:20px;
-$tablet: "screen and (max-width:768px)";
-$computer:"screen and (max-width:1200px)";
+$tablet: "screen and (max-width:420px)";
+$computer:"screen and (max-width:900px)";
 
 * { /* Gælder alt på hele siden */
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
@@ -63,10 +63,10 @@ img {
   font-family: "Lucida Grande", serif;
   height: 100vh;
   padding-left: 10px;
-  width: 15%;
+  width: 25%;
     ul{
         li{
-          font-size: 18px;
+          font-size: 10px;
           list-style-type: none;
           padding-bottom: 20px;
 
@@ -75,17 +75,17 @@ img {
           }
 
           &:nth-of-type(2) {
-            font-size: 15px;
+            font-size: 7px;
             color: #CC071E;
             padding-bottom: 0;
           }
           &:nth-of-type(3) {
-            font-size: 15px;
+            font-size: 7px;
             color: rgba(0,0,0,0.5);
             padding-bottom: 0;
           }
           &:nth-of-type(4) {
-            font-size: 15px;
+            font-size: 7px;
             color: rgba(0,0,0,0.5);
           }
           &:nth-of-type(5) {
@@ -114,5 +114,15 @@ img {
   background: mix(#FFFFFF, #FAF9F8);
   padding: $padding;
   font-family: "Lucida Grande", serif;
+  font-size: 13px;
   width: 100%;
+    .graf{
+      padding:$padding;
+      color: #CC071E;
+    }
 }
+
+
+
+$tablet: "screen and (max-width:420px)";
+$computer:"screen and (max-width:900px)";
